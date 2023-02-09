@@ -14,7 +14,7 @@ Ex 6: chmod ug+x,o+r hello Add execute permission to user & group owner, and rea
 
 Ex 7: chmod ugo+x hello Script adds execution permission to all
 
-Ex 8:
+Ex 8: chmod 007 hello Script sets command for file hello so neither owner nor group have any permissions while other users have read, write and execute permissions 
 
 Ex 9: 
 
