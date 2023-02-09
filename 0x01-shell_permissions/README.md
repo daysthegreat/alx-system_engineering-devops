@@ -32,4 +32,4 @@ Ex 15: chown -h vincent:staff _hello Script changes the owner and group owner of
 
 Ex 16: chown --from=guillaume betty hello Script changes owner of file hello to betty only if it is currently owned by guillaume
 
-Ex 17: 
+Ex 17: telnet towel.blinkenlights.nl Script plays Star Wars IV episode in the terminal. This is a premade script provided online
