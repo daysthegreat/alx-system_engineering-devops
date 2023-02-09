@@ -30,6 +30,6 @@ Ex 14: chown vincent:staff * Script changes owner to vincent and the group owner
 
 Ex 15: chown -h vincent:staff _hello Script changes the owner and group owner of file _hello to vicent & staff respectively 
 
-Ex 16:
+Ex 16: chown --from=guillaume betty hello Script changes owner of file hello to betty only if it is currently owned by guillaume
 
 Ex 17: 
