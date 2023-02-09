@@ -8,7 +8,7 @@ Ex 3: chown betty hello Script that changes owner of file hello to betty
 
 Ex 4: touch hello Script that creates an empty file called hello
 
-Ex 5: 
+Ex 5: chmod u+x hello Script that adds execution permission to the file hello
 
 Ex 6:
 
