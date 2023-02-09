@@ -10,7 +10,7 @@ Ex 4: touch hello Script that creates an empty file called hello
 
 Ex 5: chmod u+x hello Script that adds execution permission to the file hello
 
-Ex 6:
+Ex 6: chmod ug+x,o+r hello Add execute permission to use & group owner, and read permission to others for file hello
 
 Ex 7: 
 
