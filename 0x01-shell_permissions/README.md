@@ -24,4 +24,4 @@ Ex 11: chmod -R +X . Script adds execute permission to all subdirectories of the
 
 Ex 12: mkdir -m 751 my_dir Script creates a directory called my_dir with permissions 751 in the working directory. User has read, write, execute permissions. Groups has read & execute permissions & others have have only execute permission
 
-Ex 13: 
+Ex 13: chgrp school hello Script changes group owner to school for file hello
