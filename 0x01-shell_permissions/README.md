@@ -28,7 +28,7 @@ Ex 13: chgrp school hello Script changes group owner to school for file hello
 
 Ex 14: chown vincent:staff * Script changes owner to vincent and the group owner to school for all files and directories in the working directory
 
-Ex 15: 
+Ex 15: chown -h vincent:staff _hello Script changes the owner and group owner of file _hello to vicent & staff respectively 
 
 Ex 16:
 
