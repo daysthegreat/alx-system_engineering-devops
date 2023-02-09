@@ -18,7 +18,7 @@ Ex 8: chmod 007 hello Script sets command for file hello so neither owner nor gr
 
 Ex 9: chmod 753 hello Script set permission so owner has all permissions, group has read & execute permission, others have write and execute permissions
 
-Ex 10: 
+Ex 10: chmod --reference=olleh hello Script the mode of file hello the same as file olleh's mode
 
 Ex 11: 
 
