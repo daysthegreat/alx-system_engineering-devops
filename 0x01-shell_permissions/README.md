@@ -18,10 +18,18 @@ Ex 8: chmod 007 hello Script sets command for file hello so neither owner nor gr
 
 Ex 9: chmod 753 hello Script set permission so owner has all permissions, group has read & execute permission, others have write and execute permissions
 
-Ex 10: chmod --reference=olleh hello Script the mode of file hello the same as file olleh's mode
+Ex 10: chmod --reference=olleh hello Script that sets the mode of file hello the same as file olleh's mode
 
 Ex 11: chmod -R +X . Script adds execute permission to all subdirectories of thecurrent directory for everyone. Regular files remain unchanged
 
 Ex 12: mkdir -m 751 my_dir Script creates a directory called my_dir with permissions 751 in the working directory. User has read, write, execute permissions. Groups has read & execute permissions & others have have only execute permission
 
 Ex 13: chgrp school hello Script changes group owner to school for file hello
+
+Ex 14: chown vincent:staff * Script changes owner to vincent and the group owner to school for all files and directories in the working directory
+
+Ex 15: 
+
+Ex 16:
+
+Ex 17: 
