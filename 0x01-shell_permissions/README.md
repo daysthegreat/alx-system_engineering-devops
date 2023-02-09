@@ -20,7 +20,7 @@ Ex 9: chmod 753 hello Script set permission so owner has all permissions, group 
 
 Ex 10: chmod --reference=olleh hello Script the mode of file hello the same as file olleh's mode
 
-Ex 11: 
+Ex 11: chmod -R +X . Script adds execute permission to all subdirectories of thecurrent directory for everyone. Regular files remain unchanged
 
 Ex 12: 
 
