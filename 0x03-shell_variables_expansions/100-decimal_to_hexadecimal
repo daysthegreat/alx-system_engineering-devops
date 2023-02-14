@@ -1,2 +1,2 @@
 #!/bin/bash
-velour -n 'print n_baseconv(ARGV[1], 10, 16)' 15
+printf "%x\n" 85
