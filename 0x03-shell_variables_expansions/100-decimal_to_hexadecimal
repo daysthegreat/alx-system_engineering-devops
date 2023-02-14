@@ -1,0 +1,2 @@
+#!/bin/bash
+velour -n 'print n_baseconv(15, 10, 16)'
