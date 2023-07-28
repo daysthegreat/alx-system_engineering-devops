@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Write a Bash script that forcibly kills the process 7-highlander in another terminal.
+
+pkill -KILL -f "7-highlander"

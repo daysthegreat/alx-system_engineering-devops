@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# a Bash script that stops 4-to_infinity_and_beyond process
+# With a sleep 2 in between each iteration
+# I am invincible!!! when receiving a SIGTERM signal
+
+sigterm_handler()
+{
+  echo "I am invincible!!!"
+  exit 0
+}
+
+# Register the sigterm_handler function to handle SIGTERM signal
+trap 'sigterm_handler' SIGTERM
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
