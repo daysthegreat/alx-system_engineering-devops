@@ -1,4 +1,4 @@
-\#!/usr/bin/python3
+#!/usr/bin/python3
 """A function that print the first 10 hot posts on a given Reddit subreddit."""
 import requests
 
