@@ -1,5 +1,3 @@
-1-top_ten.py
-
 #!/usr/bin/python3
 
 """
